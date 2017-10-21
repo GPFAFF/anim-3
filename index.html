@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Parallax for Designers</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div id="page">
+
+    <div class="block one">
+      <div class="container">
+        <h2>Picture</h2>
+        <img class="parallax" src='img/shape_1.svg' data-rellax-speed="3"/>
+      </div>
+    </div>
+
+    <div class="block two">
+      <div class="container">
+        <h2>Me</h2>
+        <img class="parallax" src='img/shape_2.svg' data-rellax-speed="3"/>
+        </div>
+    </div>
+
+    <div class="block three">
+      <div class="container">
+        <h2 class="parallax" data-rellax-speed="2">Scrolling</h2>
+        <img class="parallax" src='img/shape_3.svg' data-rellax-speed="3"/>
+      </div>
+    </div>
+
+      <div class="block four">
+        <div class="container">
+          <h2 class="parallax" data-rellax-speed="2">Picture</h2>
+        </div>
+      </div>
+
+    <div class="block five">
+      <div class="container">
+        <h2 class="parallax" data-rellax-speed="2">Me</h2>
+        <img class="parallax" src='img/phone.png' data-rellax-speed="8"/>
+        <img class="parallax" src='img/shape_4.svg' data-rellax-speed="3"/>
+      </div>
+    </div>
+
+    <div class="block six">
+      <div class="container">
+        <h2 >Scrolling</h2>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="rellax.min.js"></script>
+<script>
+  var rellax = new Rellax('.parallax');
+  console.log(rellax);
+
+
+</script>
+
+</html>

@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background: #f2f2f2;
+}
+
+#page {
+  width: 100%;
+  height: 100%;
+}
+
+.block {
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  height: 800px;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  height: 100%;
+  align-items: center;
+}
+
+.block {
+  perspective: 1000px;
+}
+
+.block h2 {
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 0px 5px 5px black;
+}
+
+.block.one {
+  background-color: purple;
+}
+
+.block.two {
+  background-color: orange;
+}
+
+.block.three {
+  background-color: black;
+}
+
+.block.four {
+  background-color: purple;
+}
+
+.block.five {
+  background-color: orange;
+}
+
+.block.six {
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  width: 300px;
+}
+
+
+
+
+
+
+
